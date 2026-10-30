@@ -164,7 +164,7 @@ augroup autocmdgroup
     autocmd! autocmdgroup
     " autocmd BufWritePre * %s/\s\+$//e
     autocmd FocusGained * :checktime
-    autocmd InsertEnter * norm zz
+    " autocmd InsertEnter * norm zz
     " autocmd VimEnter    * if &diff | execute 'windo set wrap' | endif
     " autocmd BufNewFile *.html 0r ~/.config/nvim/templates/html.skel
     autocmd BufEnter term://* startinsert
